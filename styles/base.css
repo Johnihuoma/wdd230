@@ -1,0 +1,45 @@
+/* Basic reset and styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.grid-container {
+    display: grid;
+    gap: 16px;
+    padding: 16px;
+}
+
+/* Default layout for small screens */
+.grid-container {
+    grid-template-columns: 1fr;
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.information-card {
+    background-color: #e0e0ff;
+}
+
+.learning-activities-card {
+    background-color: #ffe0e0;
+}
