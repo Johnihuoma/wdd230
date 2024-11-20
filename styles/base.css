@@ -1,45 +1,171 @@
 /* Basic reset and styles */
-body {
+/*
+*   {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-header img {
-    max-width: 100%;
-    height: auto;
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    background-color: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: #36454f;
+    margin: 0 auto;
+    align-items: center;
+    
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
 }
 
-nav li {
-    display: inline;
-    margin-right: 10px;
+nav a {
+    display: block;
+    color: #fff;
+    text-align: justify;
+    padding: 1rem;
+    text-decoration: none;
+    
 }
 
-.grid-container {
-    display: grid;
-    gap: 16px;
-    padding: 16px;
+nav a:hover {
+    border: 1px solid yellow;
+    
+    
+}
+.parent {
+        margin: 1fr 2vw;
 }
 
-/* Default layout for small screens */
-.grid-container {
-    grid-template-columns: 1fr;
-}
-
-.card {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border: 1px solid #ccc;
+.learning-activity-card {
+    border: 1px solid #415541;
+    background-color: #e9f5e9;
+    border-radius: 10px;
+    overflow: hidden;
+    color: black;
+    text-align: justify;
+    margin: 1rem 0;
 }
 
 .information-card {
-    background-color: #e0e0ff;
+    border: 1px solid #415541;
+    background-color: #e9f5e9;
+    border-radius: 10px;
+    overflow: hidden;
+    color: black;
+    text-align: center;
+    margin: 1rem 0;
+}
+section, h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin:0;
+}
+p {
+    color: black;
+    text-align: justify;
+    font-size: 1rem;
 }
 
-.learning-activities-card {
-    background-color: #ffe0e0;
+footer {
+    background-color: aquamarine;
+    padding: 0;
+    border: 1 px;
+    border-radius: 0;
+    overflow: hidden;
+    margin: 1rem 0;
 }
+*/
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family : 'Roboto', sans-serif;
+    }
+    body {
+    font-family : "Roboto", sans-serif;
+    font-weight : 400;
+    }
+    header {
+    background-color : #bac;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    padding : 10px;
+    border : rgb(0, 0, 0, 0.1) solid 1px;
+    }
+    header, span {
+        padding : 10px;
+        margin : 1px;
+        color : green;
+        font-size: 2rem;
+    }
+    nav {
+    background-color : #36454f;
+    margin : 0 auto;
+    align-items : center;
+    }
+    nav ul {
+    list-style-type : none;
+    }
+    nav a {
+    display : block;
+    color : red;
+    text-align : justify;
+    padding : 1rem;
+    text-decoration : none;
+    }
+    nav a:hover {
+    background-color: rgb(215, 250, 245);
+    }
+    .learning-activity-card {
+    border : #415541 solid 1px;
+    background-color : #e9f5e9;
+    border-radius : 10px;
+    overflow : hidden;
+    color : black;
+    text-align : justify;
+    margin : 1rem 0;
+    }
+    .information-card {
+    border : #415541 solid 1px;
+    background-color : #e9f5e9;
+    border-radius : 10px;
+    overflow : hidden;
+    color : black;
+    text-align : center;
+    margin : 1rem 0;
+    }
+    section, h2 {
+    background-color : black;
+    color : white;
+    text-align : center;
+    margin : 0;
+    }
+    p {
+    color : black;
+    text-align : justify;
+    font-size : 1rem;
+    }
+    footer {
+    background-color : aquamarine;
+    padding : 0;
+    border-radius : 0;
+    overflow : hidden;
+    margin : 1rem 0;
+    }
